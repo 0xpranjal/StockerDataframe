@@ -2,6 +2,16 @@
 ![Stocker-Logo]()
 A unique tool for better analysis of Stock Market. This library can scrape the web for a lot of stock related data which can help you with detailed analysis of the market.
 
+[![Read the Docs](https://img.shields.io/readthedocs/utile?color=informational&logo=Read%20the%20Docs&style=flat-square)](https://utile.readthedocs.io/)
+[![CircleCI](https://img.shields.io/circleci/build/github/j0fiN/utile/master?logo=circleCI&style=flat-square)](https://app.circleci.com/pipelines/github/j0fiN/utile)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/j0fiN/utile/CI-utile?logo=github&style=flat-square)](https://github.com/j0fiN/utile/actions?query=workflow%3ACI-utile)
+[![GitHub](https://img.shields.io/github/license/j0fiN/utile?color=informational&style=flat-square)](https://github.com/j0fiN/utile/blob/master/LICENSE)
+[![Codecov](https://img.shields.io/codecov/c/github/j0fiN/utile?logo=codecov&style=flat-square)](https://codecov.io/gh/j0fiN/utile/commits)
+[![PyPI](https://img.shields.io/pypi/v/utile?logo=Pypi&style=flat-square)](https://pypi.org/project/utile/1.0/)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/utile?logo=pypi&style=flat-square)
+[![git](https://img.shields.io/badge/make%20it%20better-Contribute-blue?style=flat-square&logo=git)](#)
+
+
 ## Installation
 Install with:  
 ```pip install StockerDataframe```
