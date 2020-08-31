@@ -1,1 +1,7 @@
-
+site_name: StockerDataframe
+nav:
+  - Home: index.md
+  - Documentation: documentation.md
+  - Examples: examples.md
+  - GuideLines: guidelines.md
+theme: readthedocs
