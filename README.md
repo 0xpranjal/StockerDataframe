@@ -27,7 +27,7 @@ scrape the web for a lot of stock related data which can help you with detailed 
 
 ## Getting Started
 ### Daily Gainers
-To extract the Top performers of a particular day in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
+To extract the performers of a particular day in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
 
 ```python
 import StockerDataframe
@@ -51,7 +51,12 @@ Alufluoride Ltd.	+11.19
 IIFL Finance	+10.43
 Chembond Chemica	+10.12
 ```
+### Plotting the Daily top performers
+```python
+import StockerDataframe
 
+StockerDataframe.plot_daily_gainers()
+```
 <p  align="center"><img height="600" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/daily_top_gainers.png?token=AMFAV3527AXOOU73Y5P6ANS7K7RKO"></p>
 
 ### Weekly Gainers
@@ -62,3 +67,88 @@ import StockerDataframe
 
 StockerDataframe.weekly_gainers()
 ```
+### Plotting the Weekly top performers
+```python
+import StockerDataframe
+
+StockerDataframe.plot_weekly_gainers()
+```
+<p  align="center"><img height="600" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/weekly_top_gainers.png?token=AMFAV34JMSWL4BJNXG6A2QK7LAAVW"></p>
+
+
+### Monthly Gainers
+To extract the Top performers of a particular week in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
+
+```python
+import StockerDataframe
+
+StockerDataframe.monthly_gainers()
+```
+### Plotting the Monthly top performers
+```python
+import StockerDataframe
+
+StockerDataframe.plot_monthly_gainers()
+```
+<p  align="center"><img height="500" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/monthly_top_gainers.png?token=AMFAV34TL56K2S4Q2BOUGTC7LAAXW"></p>
+
+### Daily Losers
+To extract the worst performers of a particular day in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
+
+```python
+import StockerDataframe
+
+StockerDataframe.daily_losers()
+```
+```
+Benara Bearings	-20.0
+Bothra Metals & Allo	-14.0
+Dhruv Consultancy	-13.33
+Vodafone Idea L	-12.76
+Yug Decor	-12.5
+Caprihans India	-11.19
+La Tim Metal & Ind	-10.0
+Future Retail L	-9.98
+Odyssey Technolo	-9.95
+```
+### Plotting the Daily worst performers
+```python
+import StockerDataframe
+
+StockerDataframe.plot_daily_losers()
+```
+<p  align="center"><img height="500" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/daily_top_losers.png?token=AMFAV3YLRONQXY2SW3XYEM27LABGY"></p>
+
+### Weekly Losers
+To extract the worst performers of a particular week in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
+
+```python
+import StockerDataframe
+
+StockerDataframe.weekly_losers()
+```
+### Plotting the Weekly worst performers
+```python
+import StockerDataframe
+
+StockerDataframe.plot_weekly_gainers()
+```
+<p  align="center"><img height="500" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/weekly_top_losers.png?token=AMFAV34SEC7JIIWYEK32KMS7LABLS"></p>
+
+
+### Monthly Losers
+To extract the worst performers of a particular week in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
+
+```python
+import StockerDataframe
+
+StockerDataframe.monthly_losers()
+```
+### Plotting the Monthly worst performers
+```python
+import StockerDataframe
+
+StockerDataframe.plot_monthly_losers()
+```
+<p  align="center"><img height="500" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/monthly_top_losers.png?token=AMFAV36TLZUESOBCPZ747VK7LABNI"></p>
+
