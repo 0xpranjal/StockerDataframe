@@ -47,10 +47,6 @@ Gensol Engineering	+14.38
 Technocraft Industri	+14.28
 Radhe Developers	+14.11
 Pondy Oxides & C	+11.39
-Radhika Jeweltech	+11.29
-Alufluoride Ltd.	+11.19
-IIFL Finance	+10.43
-Chembond Chemica	+10.12
 ```
 ### Plotting the Daily top performers
 ```python
@@ -70,12 +66,26 @@ import StockerDataframe
 
 StockerDataframe.weekly_gainers()
 ```
+OUTPUT:
+```
+Company	              % Change
+Dhanvarsha Finvest	+36.84
+Polyspin Exports	+33.19
+Vitesse Agro L	+28.89
+Rainbow Foundati	+27.44
+Anubhav Infrastructu	+27.38
+Real Strips	+27.35
+Global Offshore Ser	+27.27
+Kellton Tech Solutio	+27.18
+Simran Farms Lim	+26.98
+```
 ### Plotting the Weekly top performers
 ```python
 import StockerDataframe
 
 StockerDataframe.plot_weekly_gainers()
 ```
+OUTPUT:
 <p  align="center"><img height="600" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/weekly_top_gainers.png?token=AMFAV34JMSWL4BJNXG6A2QK7LAAVW"></p>
 
 
@@ -87,12 +97,26 @@ import StockerDataframe
 
 StockerDataframe.monthly_gainers()
 ```
+OUTPUT:
+```
+Company	              % Change
+Kaushalya Infrastruc	+173.40
+Optiemus Infracom	+162.00
+Source Natural Foods	+160.36
+Axtel Industries	+142.98
+Regency Investments	+137.73
+CG Power and Indust	+130.73
+Mangalam Drugs	+116.51
+Amaze Entertech	+115.63
+Tirupati Tyres	+110.75
+```
 ### Plotting the Monthly top performers
 ```python
 import StockerDataframe
 
 StockerDataframe.plot_monthly_gainers()
 ```
+OUTPUT:
 <p  align="center"><img height="500" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/monthly_top_gainers.png?token=AMFAV34TL56K2S4Q2BOUGTC7LAAXW"></p>
 
 ### Daily Losers
@@ -133,6 +157,19 @@ import StockerDataframe
 
 StockerDataframe.weekly_losers()
 ```
+OUTPUT:
+```
+Company	              % Change
+Morganite Crucible (	-52.38
+Benara Bearings	-33.13
+Somi Conveyor Beltin	-30.64
+GlobalSpace Techno	-25.59
+Patel Integrated Log	-23.94
+Hindustan Aeronautic	-23.91
+Dynamic Industri	-23.33
+NDR Auto Components	-22.57
+Goldstone Tech	-22.44
+```
 ### Plotting the Weekly worst performers
 ```python
 import StockerDataframe
@@ -150,6 +187,19 @@ To extract the worst performers of a particular week in BSE and save them locall
 import StockerDataframe
 
 StockerDataframe.monthly_losers()
+```
+OUTPUT:
+```
+Company	              % Change
+Eicher Motors	-89.68
+Madhav Infra Project	-79.26
+Trident Texofab	-63.33
+Leading Leasing Fin	-52.62
+Netripples Software	-48.68
+UTL Industries	-47.12
+Morganite Crucible (	-41.91
+Caprolactam Chemical	-37.37
+Panth Infinity	-35.2
 ```
 ### Plotting the Monthly worst performers
 ```python
