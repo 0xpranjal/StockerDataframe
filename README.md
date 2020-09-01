@@ -1,5 +1,5 @@
 # StockerDataframe
-![Stocker-Logo](https://github.com/Bhard27/StockerDataframe/blob/master/docs/img1.jpg)
+![Stocker-Logo]<p  align="center"><img height="500" src = "https://github.com/Bhard27/StockerDataframe/blob/master/docs/img1.png"></p>
 A unique tool for better analysis of Stock Market. This library can scrape the web for a lot of stock related data which can help you with detailed analysis of the market.
 
 
