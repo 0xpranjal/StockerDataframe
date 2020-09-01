@@ -22,7 +22,7 @@ Performing a research before making an investment is a must. It is only after a 
 When you invest in equity, you purchase some portions of a business expecting to make money upon increase in the value of the business. Before buying anything, be it a car or phone, you do some degree of research about its performance and quality. An investment is no different. It is your hard earned money that you are about to invest, so you must have a fair knowledge of what you are investing in.
 
 ## What Parameters can help you with the Analysis
-One of the key factors for day traders is tracking the best and worst performing stocks over a preiod of time. With StockerDataframe, you can easily 
+One of the key factors for traders is tracking the best and worst performing stocks over a period of time. With StockerDataframe, you can easily 
 scrape the web for a lot of stock related data which can help you with detailed analysis of the market.
 
 ## Getting Started
