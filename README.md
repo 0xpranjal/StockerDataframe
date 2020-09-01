@@ -26,3 +26,39 @@ One of the key factors for traders is tracking the best and worst performing sto
 scrape the web for a lot of stock related data which can help you with detailed analysis of the market.
 
 ## Getting Started
+### Daily Gainers
+To extract the Top performers of a particular day in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
+
+```python
+import StockerDataframe
+
+StockerDataframe.daily_gainers()
+```
+```
+Company	              % Change
+Indian Acrylics	+20.00
+Pasupati Acrylon	+19.91
+Vidli Restaurants Lt	+19.12
+Responsive Industrie	+16.60
+Victoria Mills	+14.60
+HB Portfolio	+14.41
+Gensol Engineering	+14.38
+Technocraft Industri	+14.28
+Radhe Developers	+14.11
+Pondy Oxides & C	+11.39
+Radhika Jeweltech	+11.29
+Alufluoride Ltd.	+11.19
+IIFL Finance	+10.43
+Chembond Chemica	+10.12
+```
+
+<p  align="center"><img height="600" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/daily_top_gainers.png?token=AMFAV3527AXOOU73Y5P6ANS7K7RKO"></p>
+
+### Weekly Gainers
+To extract the Top performers of a particular week in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
+
+```python
+import StockerDataframe
+
+StockerDataframe.weekly_gainers()
+```
