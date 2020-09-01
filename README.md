@@ -34,6 +34,7 @@ import StockerDataframe
 
 StockerDataframe.daily_gainers()
 ```
+OUTPUT:
 ```
 Company	              % Change
 Indian Acrylics	+20.00
@@ -57,6 +58,8 @@ import StockerDataframe
 
 StockerDataframe.plot_daily_gainers()
 ```
+OUTPUT:
+
 <p  align="center"><img height="600" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/daily_top_gainers.png?token=AMFAV3527AXOOU73Y5P6ANS7K7RKO"></p>
 
 ### Weekly Gainers
@@ -100,7 +103,9 @@ import StockerDataframe
 
 StockerDataframe.daily_losers()
 ```
+OUTPUT:
 ```
+Company	              % Change
 Benara Bearings	-20.0
 Bothra Metals & Allo	-14.0
 Dhruv Consultancy	-13.33
@@ -117,6 +122,7 @@ import StockerDataframe
 
 StockerDataframe.plot_daily_losers()
 ```
+OUTPUT:
 <p  align="center"><img height="500" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/daily_top_losers.png?token=AMFAV3YLRONQXY2SW3XYEM27LABGY"></p>
 
 ### Weekly Losers
@@ -133,6 +139,7 @@ import StockerDataframe
 
 StockerDataframe.plot_weekly_gainers()
 ```
+OUTPUT:
 <p  align="center"><img height="500" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/weekly_top_losers.png?token=AMFAV34SEC7JIIWYEK32KMS7LABLS"></p>
 
 
@@ -150,5 +157,6 @@ import StockerDataframe
 
 StockerDataframe.plot_monthly_losers()
 ```
+OUTPUT:
 <p  align="center"><img height="500" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/monthly_top_losers.png?token=AMFAV36TLZUESOBCPZ747VK7LABNI"></p>
 
