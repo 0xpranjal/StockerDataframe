@@ -1,10 +1,10 @@
 Metadata-Version: 1.0
 Name: StockerDataframe
-Version: 0.3
-Summary: A tool which can help you with Stock analysis in an efficient way.
-Home-page: UNKNOWN
+Version: 0.7
+Summary: A unique tool for better analysis of Stock Market
+Home-page: https://github.com/Bhard27/StockerDataframe
 Author: Pranjal
-Author-email: UNKNOWN
-License: UNKNOWN
-Description: Long description about the package
+Author-email: pranjal27bhardwaj@gmail.com
+License: GPL-3.0 License
+Description: One of the key factors for traders is tracking the best and worst performing stocks over a period of time. With StockerDataframe, you can easily scrape the web for a lot of stock related data which can help you with detailed analysis of the market.
 Platform: UNKNOWN
