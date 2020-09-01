@@ -1,5 +1,11 @@
 from setuptools import setup
+
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
 setup(name="StockerDataframe", 
-    version="0.7", 
+    version="0.8", 
     description="A unique tool for better analysis of Stock Market", license='GPL-3.0 License', 
-    long_description="One of the key factors for traders is tracking the best and worst performing stocks over a period of time. With StockerDataframe, you can easily scrape the web for a lot of stock related data which can help you with detailed analysis of the market.",author="Pranjal", packages=['StockerDataframe'], url = 'https://github.com/Bhard27/StockerDataframe', author_email='pranjal27bhardwaj@gmail.com')
+    long_description=long_description, long_description_content_type='text/markdown', author="Pranjal", packages=['StockerDataframe'], url = 'https://github.com/Bhard27/StockerDataframe', author_email='pranjal27bhardwaj@gmail.com')
