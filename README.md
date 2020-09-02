@@ -29,9 +29,9 @@ scrape the web for a lot of stock related data which can help you with detailed 
 To extract the performers of a particular day in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
 
 ```python
-import StockerDataframe
+from StockerDataframe import gainers as gn
 
-StockerDataframe.daily_gainers()
+gn.daily_gainers()
 ```
 OUTPUT:
 ```
@@ -49,9 +49,9 @@ Pondy Oxides & C	+11.39
 ```
 ### Plotting the Daily top performers
 ```python
-import StockerDataframe
+from StockerDataframe import gainers as gn
 
-StockerDataframe.plot_daily_gainers()
+gn.plot_daily_gainers()
 ```
 OUTPUT:
 
@@ -61,9 +61,9 @@ OUTPUT:
 To extract the Top performers of a particular week in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
 
 ```python
-import StockerDataframe
+from StockerDataframe import gainers as gn
 
-StockerDataframe.weekly_gainers()
+gn.weekly_gainers()
 ```
 OUTPUT:
 ```
@@ -80,9 +80,9 @@ Simran Farms Lim	+26.98
 ```
 ### Plotting the Weekly top performers
 ```python
-import StockerDataframe
+from StockerDataframe import gainers as gn
 
-StockerDataframe.plot_weekly_gainers()
+gn.plot_weekly_gainers()
 ```
 OUTPUT:
 <p  align="center"><img height="600" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/weekly_top_gainers.png?token=AMFAV34JMSWL4BJNXG6A2QK7LAAVW"></p>
@@ -92,9 +92,9 @@ OUTPUT:
 To extract the Top performers of a particular week in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
 
 ```python
-import StockerDataframe
+from StockerDataframe import gainers as gn
 
-StockerDataframe.monthly_gainers()
+gn.monthly_gainers()
 ```
 OUTPUT:
 ```
@@ -111,9 +111,9 @@ Tirupati Tyres	+110.75
 ```
 ### Plotting the Monthly top performers
 ```python
-import StockerDataframe
+from StockerDataframe import gainers as gn
 
-StockerDataframe.plot_monthly_gainers()
+gn.plot_monthly_gainers()
 ```
 OUTPUT:
 <p  align="center"><img height="500" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/monthly_top_gainers.png?token=AMFAV34TL56K2S4Q2BOUGTC7LAAXW"></p>
@@ -122,9 +122,9 @@ OUTPUT:
 To extract the worst performers of a particular day in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
 
 ```python
-import StockerDataframe
+import StockerDataframe as lr
 
-StockerDataframe.daily_losers()
+lr.daily_losers()
 ```
 OUTPUT:
 ```
@@ -141,9 +141,9 @@ Odyssey Technolo	-9.95
 ```
 ### Plotting the Daily worst performers
 ```python
-import StockerDataframe
+import StockerDataframe as lr
 
-StockerDataframe.plot_daily_losers()
+lr.plot_daily_losers()
 ```
 OUTPUT:
 <p  align="center"><img height="500" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/daily_top_losers.png?token=AMFAV3YLRONQXY2SW3XYEM27LABGY"></p>
@@ -152,9 +152,9 @@ OUTPUT:
 To extract the worst performers of a particular week in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
 
 ```python
-import StockerDataframe
+import StockerDataframe as lr
 
-StockerDataframe.weekly_losers()
+lr.weekly_losers()
 ```
 OUTPUT:
 ```
@@ -171,9 +171,9 @@ Goldstone Tech	-22.44
 ```
 ### Plotting the Weekly worst performers
 ```python
-import StockerDataframe
+import StockerDataframe as lr
 
-StockerDataframe.plot_weekly_gainers()
+lr.plot_weekly_gainers()
 ```
 OUTPUT:
 <p  align="center"><img height="500" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/weekly_top_losers.png?token=AMFAV34SEC7JIIWYEK32KMS7LABLS"></p>
@@ -183,9 +183,9 @@ OUTPUT:
 To extract the worst performers of a particular week in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
 
 ```python
-import StockerDataframe
+import StockerDataframe as lr
 
-StockerDataframe.monthly_losers()
+lr.monthly_losers()
 ```
 OUTPUT:
 ```
@@ -202,9 +202,9 @@ Panth Infinity	-35.2
 ```
 ### Plotting the Monthly worst performers
 ```python
-import StockerDataframe
+import StockerDataframe as lr
 
-StockerDataframe.plot_monthly_losers()
+lr.plot_monthly_losers()
 ```
 OUTPUT:
 <p  align="center"><img height="500" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/monthly_top_losers.png?token=AMFAV36TLZUESOBCPZ747VK7LABNI"></p>
