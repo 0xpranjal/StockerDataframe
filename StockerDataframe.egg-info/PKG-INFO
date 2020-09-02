@@ -1,13 +1,13 @@
 Metadata-Version: 2.1
 Name: StockerDataframe
-Version: 0.8
+Version: 1.2
 Summary: A unique tool for better analysis of Stock Market
 Home-page: https://github.com/Bhard27/StockerDataframe
 Author: Pranjal
 Author-email: pranjal27bhardwaj@gmail.com
 License: GPL-3.0 License
 Description: # StockerDataframe
-        <p  align="center"><img height="300" src = "https://github.com/Bhard27/StockerDataframe/blob/master/docs/img1.png"></p>
+        <p  align="center"><img height="300" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/docs/img1.png?token=AMFAV3YUAJJNUNJTCCDQNPS7LAD3S"></p>
         
         A unique tool for better analysis of Stock Market. This library can scrape the web for a lot of stock related data which can help you with detailed analysis of the market.
         

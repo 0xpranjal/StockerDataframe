@@ -1,7 +1,8 @@
 README.md
-setup.cfg
 setup.py
 StockerDataframe/__init__.py
+StockerDataframe/gainers.py
+StockerDataframe/losers.py
 StockerDataframe.egg-info/PKG-INFO
 StockerDataframe.egg-info/SOURCES.txt
 StockerDataframe.egg-info/dependency_links.txt
