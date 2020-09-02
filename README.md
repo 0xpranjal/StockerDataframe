@@ -122,7 +122,7 @@ OUTPUT:
 To extract the worst performers of a particular day in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
 
 ```python
-import StockerDataframe as lr
+from StockerDataframe import losers as lr
 
 lr.daily_losers()
 ```
@@ -141,7 +141,7 @@ Odyssey Technolo	-9.95
 ```
 ### Plotting the Daily worst performers
 ```python
-import StockerDataframe as lr
+from StockerDataframe import losers as lr
 
 lr.plot_daily_losers()
 ```
@@ -152,7 +152,7 @@ OUTPUT:
 To extract the worst performers of a particular week in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
 
 ```python
-import StockerDataframe as lr
+from StockerDataframe import losers as lr
 
 lr.weekly_losers()
 ```
@@ -171,9 +171,9 @@ Goldstone Tech	-22.44
 ```
 ### Plotting the Weekly worst performers
 ```python
-import StockerDataframe as lr
+from StockerDataframe import losers as lr
 
-lr.plot_weekly_gainers()
+lr.plot_weekly_losers()
 ```
 OUTPUT:
 <p  align="center"><img height="500" src = "https://raw.githubusercontent.com/Bhard27/StockerDataframe/master/examples/weekly_top_losers.png?token=AMFAV34SEC7JIIWYEK32KMS7LABLS"></p>
@@ -183,7 +183,7 @@ OUTPUT:
 To extract the worst performers of a particular week in BSE and save them locally in a CSV file format. We can get the % change and Company name in the CSV file which can be used for further advanced Data Analysis.
 
 ```python
-import StockerDataframe as lr
+from StockerDataframe import losers as lr
 
 lr.monthly_losers()
 ```
@@ -202,7 +202,7 @@ Panth Infinity	-35.2
 ```
 ### Plotting the Monthly worst performers
 ```python
-import StockerDataframe as lr
+from StockerDataframe import losers as lr
 
 lr.plot_monthly_losers()
 ```
