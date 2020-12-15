@@ -32,6 +32,8 @@ def monthly_losers():
     df1.to_csv('monthly_top_losers.csv', index=False)
 
 def plot_daily_losers():
+    
+    daily_losers()
     plt.style.use('fivethirtyeight')
     data_daily_losers = pd.read_csv('daily_top_losers.csv')
     data_daily_losers_final = data_daily_losers[:16]
@@ -40,6 +42,8 @@ def plot_daily_losers():
     plt.show(x4)
     
 def plot_weekly_losers():
+    
+    weekly_losers()
     plt.style.use('fivethirtyeight')
     data_weekly_losers = pd.read_csv('weekly_top_losers.csv')
     data_weekly_losers_final = data_weekly_losers[:16]
@@ -48,6 +52,8 @@ def plot_weekly_losers():
     plt.show(x5)
 
 def plot_monthly_losers():
+    
+    monthly_losers()
     plt.style.use('fivethirtyeight')
     data_monthly_losers = pd.read_csv('monthly_top_losers.csv')
     data_monthly_losers_final = data_monthly_losers[:16]
