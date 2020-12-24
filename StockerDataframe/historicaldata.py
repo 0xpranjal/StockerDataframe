@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Oct 23 16:47:04 2020
-
-@author: pranjal27bhardwaj
-"""
-
 import pandas as pd
 import pandas_datareader as dr
 from datetime import datetime, timedelta

@@ -2,6 +2,7 @@ README.md
 setup.py
 StockerDataframe/__init__.py
 StockerDataframe/gainers.py
+StockerDataframe/historicaldata.py
 StockerDataframe/losers.py
 StockerDataframe.egg-info/PKG-INFO
 StockerDataframe.egg-info/SOURCES.txt
