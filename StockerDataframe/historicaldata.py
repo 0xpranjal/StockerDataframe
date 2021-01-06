@@ -31,7 +31,7 @@ class financeData:
         #print(a)
         #print(b)
         diff = close_prices[-1] - close_prices[0]
-        print(diff)
+        return diff
         #print(df)
         #historical_data = yahoo.get_historical(start_date, end_date)
         #return historical_data
